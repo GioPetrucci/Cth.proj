@@ -1,0 +1,136 @@
+body {
+	font-family: 'Reem Kufi', sans-serif !important;
+}
+
+a:link {   
+ text-decoration:none;
+}  
+
+@media (max-width: 600px) {
+	nav img {
+		width: 40% !important;
+		height: auto;
+		margin-left: 4px !important;
+		margin-top: 10px !important;
+
+	}
+}
+
+#index-banner img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.brand-logo img {
+	width: 245px;
+}
+
+.nav-wrapper img{
+	width: 210px;
+	margin: -2px 42px;
+
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+	display: block;
+    color: black;
+}
+
+.parallax-container img{
+	width: 1000px;
+	height: auto;
+}
+
+nav img {
+	width: 35% !important;
+	height: auto !important;
+	margin-top: 10px !important;
+}
+
+h3 {
+	color:white;
+	padding-left: 12px;
+}
+
+.side-nav .collapsible-header, .side-nav.fixed .collapsible-header {
+	color: #e5e1e1;
+}
+.side-nav .collapsible-header:hover, .side-nav.fixed .collapsible-header:hover {
+	color:white;
+}
+
+.side-nav .collapsible-body {
+    padding-left: 35px;
+}
+
+.side-nav .collapsible-body a{
+    color: black;
+}
+
+map a {
+	text-decoration: none;
+}
+
+/*Modal config*/
+
+.modal_img {
+	margin-top: 70px;
+}
+
+.modal-fixed-footer {
+	width: 70% !important;
+	max-height: 400% !important;
+}
+
+.modal-fixed-footer img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fases {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 1px blue solid;
+}
+
+h4 {
+	text-align: center;
+}
+
+.historia img{
+	margin-top: 0em;
+}
+
+.manito{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position :relative;
+	opacity: 0;
+	animation: fadeUpIn 2.3s;
+	-webkit-animation: fadeUpIn 2.3s;
+	animation-iteration-count: 3;
+}
+
+@-webkit-keyframes fadeUpIn  /*Safari and Chrome */
+{
+  0% { opacity:0; left:-150px; color: black;}
+  50% { opacity:1; left: 40px; color: gray;}
+  100% { opacity:0; left: -10px;}
+}
+
+
