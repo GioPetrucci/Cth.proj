@@ -1,19 +1,12 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6762412427343111",
-    enable_page_level_ads: true
-  });
-  </script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>CertifícaTech</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Reem+Kufi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Reem+Kufi|Open+Sans" rel="stylesheet">
   <link href="./materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="./app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script src="https://use.fontawesome.com/0550836500.js"></script>
@@ -55,7 +48,14 @@
     </nav>
   </div>
 
+  <!-- Botón Home -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light teal darken-3 z-depth-5 tooltipped" data-position="top" data-delay="50" data-tooltip="Home" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+  </div>
+  <!--/Botón Home  -->
+
   <!-- Menú slide -->
+
   <div> 
     <ul id="slide-out" class="side-nav  teal lighten-2">
       <h3>Scrum</h3>
@@ -111,133 +111,68 @@
 
     </ul>
   </div>
-  <!--/Menu slide  --> 
+  <!--/Menu slide  -->
 
-  <!-- Primer Banner -->
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text blue-grey-text text-lighten-5"></h1>
-        <br><br>
+  <div class="row">
+    <div class="col-md-12 center-align">
+      <h1 class="">
+        Asignación de bloques de tiempo
+      </h1>
+    </div>
+  </div> 
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+          <p>El tiempo en Scrum es una de las cuestiones más importantes en la gestión de un proyecto. Scrum introduce un nuevo concepto de  asignación de un bloque de tiempo o Time - Boxing; éste propone la fijación de una cierta cantidad de tiempo para cada proceso y actividad en un proyecto de Scrum. Esto ayudará para que los miembros del equipo no se ocupen demasiado o muy poco tiempo para una actividad determinada.</p><br>
+          <p>En Scrum los tiempos se reparten de la siguiente manera:</p>
+      </div>
+
+      <div class="col s12">
+        <table>
+
+          <tr>
+            <td class="tbl_head indigo yellow accent-4"><strong>Actividad</strong></td>
+            <td class="tbl_head indigo indigo lighten-2"><strong>Tiempo</strong></td>
+            <td class="tbl_head indigo orange darken-1"><strong>Resumen de la actividad</strong></td>
+          </tr>
+
+          <tr class="indigo lighten-5">
+            <td><strong>Sprint</strong></td>
+            <td>1 a 6 semanas (Lo recomendable es 4 semanas para un proyecto promedio, 6 semanas para proyectos muy grandes)</td>
+            <td>El Scrum Master es quien está pendiente de las necesidades del equipo y las suple de la manera más adecuada durante el proceso de creación de entregables.
+            El equipo Scrum trabaja para convertir la lista priorizada de pendientes en funcionalidades de producto.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Reunión diaria</strong></td>
+            <td>15 Minutos</td>
+            <td>Se reúne el equipo de trabajo para informar cómo fueron sus labores del día anterior, qué realizará el día actual y qué dificultades ha tenido que le impidan o dificulten avanzar.</td>
+          </tr>
+
+          <tr class="indigo lighten-5">
+            <td><strong>Reunión de planificación del sprint</strong></td>
+            <td>8 Horas en un sprint de un mes de duración</td>
+            <td>Hace parte del proceso de creación de la lista de pendientes, se realiza antes del Sprint. Esta actividad se divide en:<br>
+            - Definición del objetivo: El propietario prioriza las historias de usuario y en conjunto con el equipo de trabajo define el objetivo del Sprint. <br>
+            - Estimación de tareas: Se hace en la segunda parte de la reunión y es donde el equipo Scrum decide cómo se va a completar la lista priorizada de pendientes.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Reunión de revisión del sprint</strong></td>
+            <td>4 Horas en un sprint de un mes de duración</td>
+            <td>Se le presentan los entregables al propietario del producto para que éste evalúe si los acepta o rechaza de acuerdo a los criterios de aceptación.</td>
+          </tr>
+
+          <tr class="indigo lighten-5">
+            <td><strong>Reunión de retrospectiva del sprint</strong></td>
+            <td>4 Horas en un sprint de un mes de duración</td>
+            <td>El equipo revisa lecciones aprendidas del  Sprint que se terminó, para así aprender, mejorar las prácticas y disminuir errores en los siguientes sprints.</td>
+          </tr>
+
+        </table>
       </div>
     </div>
-    <div class="parallax"><img src="img/main_banner.png" alt="Unsplashed background img 1"></div>
-  </div>
-
-  <!-- Sección de tarjetas -->
-  <div class="container">
-    <div class="section">
-      <div class="row">
-      <ul id="card_list">
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align">
-            <div class="card-image">
-              <img src="img/card1.png">
-              <span class="card-title">Glosario de Términos</span>
-            </div>
-            <div class="card-content">
-              <p>Lo escencial que debes conocer</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align">
-            <div class="card-image">
-              <img src="img/card1.png">
-              <span class="card-title">Historia</span>
-            </div>
-            <div class="card-content">
-              <p>Todo en una  breve línea del tiempo</p>
-            </div>
-            <div class="card-action">
-              <a href="historia.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align">
-            <div class="card-image">
-              <img src="img/card1.png">
-              <span class="card-title">Conceptos Generales</span>
-            </div>
-            <div class="card-content">
-              <p>Los elementos más importantes de Scrum</p>
-            </div>
-            <div class="card-action">
-              <a href="./conceptos.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align">
-            <div class="card-image">
-              <img src="img/card1.png">
-              <span class="card-title">Principios</span>
-            </div>
-            <div class="card-content">
-              <p>Conoce las partes más importantes del desarrollo iterativo</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align">
-            <div class="card-image">
-              <img src="img/card1.png">
-              <span class="card-title">Aspectos</span>
-            </div>
-            <div class="card-content">
-              <p>Características de la metodología</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align">
-            <div class="card-image">
-              <img src="img/card1.png">
-              <span class="card-title">Procesos</span>
-            </div>
-            <div class="card-content">
-              <p>Explora cada parte de los procesos</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-
-      </ul>
-
-      </div>
-    </div>    
   </div>
 
   <!-- Footer -->
@@ -262,10 +197,9 @@
   <!--/Footer -->
 
 
-
   <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/init.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+  </body>
 </html>
